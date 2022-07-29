@@ -28,11 +28,28 @@
     .pl0 { padding-left: 0; }
     .bb { border-bottom: 1px solid #000; }
     .bt { border-top: 1px solid #000; }
+    .ba { border: 1px solid #000 }
     .black { color: black; }
     .no-underline { text-decoration: none; }
     .db { display: block; }
     .di { display: inline; }
     .list { list-style-type: none; }
     .lh-copy { line-height: 1.5em; }
+    .bg-green { background-color: #d7ffe2 }
+
+    @keyframes move {
+      from {
+        left: 0;
+      }
+      to {
+        left: 50%;
+      }
+    }
+
+    .test {
+      animation-name: move;
+      animation-duration: 5s;
+      display: inline-block;
+    }
   </style>
 </head>
