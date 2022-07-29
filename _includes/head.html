@@ -38,17 +38,22 @@
     .bg-green { background-color: #d7ffe2 }
 
     @keyframes move {
-      from {
-        left: 0;
+      0% {
+        margin-left: 0;
       }
-      to {
-        left: 50%;
+      50% {
+        margin-left: 92%;
+      }
+      100% {
+        margin-left: 0;
       }
     }
 
     .test {
       animation-name: move;
-      animation-duration: 5s;
+      animation-duration: 200s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
       display: inline-block;
     }
   </style>
