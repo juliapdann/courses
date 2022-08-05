@@ -1,13 +1,14 @@
 @font-face {
     font-family: picnic;
     src: url(../assets/PicNic-Regular.woff);
-  }
+}
 
 body {
     background-color: #000;
     color: #fff;
     font-family: picnic;
     font-size: 4em;
+    padding: .25em;
 }
 
 .site-title {
@@ -74,7 +75,7 @@ body {
     }
 }
 
-.test {
+.move {
     animation-name: move;
     animation-duration: 3000s;
     animation-timing-function: linear;
