@@ -6,7 +6,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <link rel="stylesheet" href="{{ site.url }}/assets/styles.css">
+  <link rel="stylesheet" href="{{ site.url }}/{{ site.baseurl }}/assets/styles.css">
   
   <!-- Only render the GA script on production -->
   {% if site.ga and jekyll.environment == 'production' %}
