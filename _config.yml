@@ -5,7 +5,7 @@ version: "0.1"
 size: "20k"
 
 # github pages deployment
-url: http://joshosbrn.github.io
+url: https://joshosbrn.github.io
 
 # Build settings
 markdown: kramdown
