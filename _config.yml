@@ -4,6 +4,9 @@ description: "… is the research-driven and community-centered design practice 
 version: "0.1"
 size: "20k"
 
+# github pages deployment
+url: http://joshosbrn.github.io
+
 # Build settings
 markdown: kramdown
 
