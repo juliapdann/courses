@@ -19,10 +19,10 @@ assingments:
               <p>{{ schedule.date }}: {{ schedule.title }}</p>
               <p>{{ schedule.description }}</p>
               <ul>
-                {% for assingments in schedule.assingments %}
-                  <li>In-class: {{ assingments.in-class }}</li>
-                  <li>Homework: {{ assingments.homework }}</li>
-                  <li>Read/watch/listen: {{ assingments.supplementary-materials }}</li>
+                {% for assignments in schedule.assignments %}
+                  <li>In-class: {{ assignments.in-class }}</li>
+                  <li>Homework: {{ assignments.homework }}</li>
+                  <li>Read/watch/listen: {{ assignments.supplementary-materials }}</li>
                 {% endfor %}
               </ul>
             {% endfor %}
