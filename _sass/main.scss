@@ -10,7 +10,12 @@
 ::selection {
     color: black;
     background: yellow;
-  }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
 
 h1, h2, h3, h4, p, li {
     font-size: 30px;
