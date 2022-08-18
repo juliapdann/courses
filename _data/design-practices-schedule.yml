@@ -3,42 +3,82 @@
   description: collecting, personal catalogs, queries
   schedule:
   - date: Tuesday Aug 23
-    description: Monroe Park Campus Classes Begin
+    title: Monroe Park Campus Classes Begin
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
   - date: Wednesday Aug 24
-    description: Introductions, Syllabus, Q&A
+    title: Introductions, Syllabus, Q&A
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
 
 - week: Week Two
   title: Cataloging
   description: collecting, personal catalogs, queries
   schedule:
   - date: Monday Aug 29
-    description: Are.na day, Project 01 prompt
+    title: Are.na day, Project 01 prompt
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
   - date: Wednesday Aug 31
-    description: RESEARCH DAY Assembling areas of inquiry
+    title: RESEARCH DAY Assembling areas of inquiry
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
 
 - week: Week Three
   title: Introductions
   description: collecting, personal catalogs, queries
   schedule:
   - date: Tuesday Aug 23
-    description: Monroe Park Campus Classes Begin
+    title: Monroe Park Campus Classes Begin
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
   - date: Wednesday Aug 24
-    description: Introductions, Syllabus, Q&A
+    title: Introductions, Syllabus, Q&A
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
 
 - week: Week Four
   title: Cataloging
   description: collecting, personal catalogs, queries
   schedule:
   - date: Monday Aug 29
-    description: Are.na day, Project 01 prompt
+    title: Are.na day, Project 01 prompt
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
   - date: Wednesday Aug 31
-    description: RESEARCH DAY Assembling areas of inquiry
+    title: RESEARCH DAY Assembling areas of inquiry
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
 
 - week: Week Five
   title: Cataloging
   description: collecting, personal catalogs, queries
   schedule:
   - date: Monday Aug 29
-    description: Are.na day, Project 01 prompt
+    title: Are.na day, Project 01 prompt
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.
   - date: Wednesday Aug 31
-    description: RESEARCH DAY Assembling areas of inquiry
+    title: RESEARCH DAY Assembling areas of inquiry
+    assingments:
+    - in-class: Lorem ipsum dolor sit amet.
+      homework: Lorem ipsum dolor sit amet.
+      supplementary-materials: Lorem ipsum dolor sit amet.

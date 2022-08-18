@@ -14,9 +14,19 @@ assingments:
           <h2>{{ week.week }}: {{ week.title }}</h2>
           <p><i>{{ week.description }}</i></p>
 
-          {% for schedule in week.schedule %}
-            <p>{{ schedule.date }}: {{ schedule.description }}</p>
-          {% endfor %}
+          <div class="schedule">
+            {% for schedule in week.schedule %}
+              <p>{{ schedule.date }}: {{ schedule.title }}</p>
+              <p>{{ schedule.description }}</p>
+              <ul>
+                {% for assingments in schedule.assingments %}
+                  <li>In-class: {{ assingments.in-class }}</li>
+                  <li>Homework: {{ assingments.homework }}</li>
+                  <li>Read/watch/listen: {{ assingments.supplementary-materials }}</li>
+                {% endfor %}
+              </ul>
+            {% endfor %}
+          </div>
         </li>
       {% endfor %}
     </ul>
@@ -31,7 +41,7 @@ assingments:
         <li>Begin experimenting with platforms for collecting and organizing content. Is there a specific process or platform that feels in-line with your content and workflow needs? (This is different for everyone!)</li>
         <li>WATCH: Conversations | Curator Talk | Archives and the Digital Dark Age</li>
       </ol>
-      <h2>Preparing for:</h2>
+      <h2>Preparing for: </h2>
       <h2>Listening to:</h2>
       <h2>Watching:</h2>
     </div>

@@ -113,14 +113,22 @@ footer .nav { border-top: 1px solid #fff; }
     border-bottom: 1px solid #fff;
     list-style-type: none;
     padding: 15px;
-
-    :last-child {
-        margin-bottom: 0;
-    }
 }
 
 .week:last-of-type {
     border: none;
+}
+
+.schedule {
+    ul {
+        li {
+            list-style-type: disc;
+            margin-left: 30px;
+        }
+        :last-child {
+            margin-bottom: 15px;
+        }
+    }
 }
 
 .latest {
@@ -132,6 +140,7 @@ footer .nav { border-top: 1px solid #fff; }
 
     ol {
         margin: 0;
+        padding: 0 0 0 30px;
     }
 }
 
