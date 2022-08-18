@@ -3,90 +3,70 @@
     src: url(../assets/PicNic-Regular.woff);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #000;
     color: #fff;
     font-family: picnic;
-    font-size: 4em;
-    padding: .25em;
-}
-
-.site-title {
-    margin: 0;
-}
-
-.site-description {
-    margin: 0;
-}
-
-.site-email {
-    a {
-        color: #fff;
-        text-decoration: none;
-        border-bottom: 3px solid #fff;
-    }
-}
-
-.site-meta {
-    margin: 0;
-}
-
-.post-list {
-    column-count: 4;
-    column-gap: .5em;
+    font-size: 2em;
     padding: 0;
-    margin: .5em 0 0 0;
+    margin: .25em;
+    overflow-x: hidden;
 }
 
-.post {
-    border: 1px solid #093616;
-    border-radius: .25em;
-    list-style-type: none;
-    line-height: 1.25em; 
-    padding: .5rem;
-    margin: 0 0 .5em 0;
-    break-inside: avoid-column;
+header {
+    position: relative;
+    z-index: 10;
+}
 
-    a {
-        color: #093616;
-    }
+.container {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    margin-top: -100px;
+    padding-top: 100px;
+}
 
-    img {
-        display: block;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    :nth-of-type(3n) {
-        margin-right: 0;
+.left, .right {
+    width: 50%;
+    overflow: auto;
+    height: auto;
+    ::-webkit-scrollbar {
+        display: none;
     }
 }
 
-.post-meta {
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee {
+    white-space: nowrap;
+    clear: both;
+    float: left;
     margin: 0;
+    padding: 0;
 }
 
-.post-text {
-    margin: 0 0 .5em 0;
-}
+footer {
+    .nav {
 
-@keyframes move {
-    0% {
-        margin-left: 0;
-    }
-    50% {
-        margin-left: 92%;
-    }
-    100% {
-        margin-left: 0;
     }
 }
 
-.move {
-    animation-name: move;
-    animation-duration: 3000s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    display: inline-block;
+.nav {
+    padding: 0;
+    margin: 0;
+
+    li {
+        display: inline-block;
+        list-style-type: none;
+    }
 }

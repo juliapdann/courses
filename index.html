@@ -1,13 +1,35 @@
 ---
 layout: default
+assingments:
+- Begin brainstorming directions for building a collection that will serve as the basis for your catalogue/final project direction. Start by developing smaller collections (ranging in focus & specificity) as an opportunity to see the possibilities of how each could unfold. Be prepared to discuss your process and findings for the next class.
+- Begin experimenting with platforms for collecting and organizing content. Is there a specific process or platform that feels in-line with your content and workflow needs? (This is different for everyone!)
+- WATCH Conversations | Curator Talk | Archives and the Digital Dark Age
 ---
-<!-- <ul class="post-list">
-  {% for website in site.data.websites %}
-    <li class="post">
-      <div class="post-meta"><a href="{{ website.url }}">{{ website.name }} — added on {{ website.date }} — {{ website.topic }}</a></div>
-      <div class="post-meta"><a href="{{ website.url }}">~userName posted on {{ website.date }}</a></div>
-      <p class="post-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.</p>
-      <img src="assets/meadow.png">
-    </li>
-  {% endfor %}
-</ul> -->
+<div class="container">
+  <div class="left">
+    <h1>Calendar</h1>
+    <ul>
+      {% for class in site.data.posts %}
+        <li class="">
+          <h2>{{ class.week }}</h2>
+          <p>{{ class.title }}</p>
+          <p>{{ class.description }}</p>
+          <p>{{ class.schedule }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div class="right">
+    <h1>Latest</h1>
+    <h2>Assignments</h2>
+    <ul>
+      <li>Begin brainstorming directions for building a collection that will serve as the basis for your catalogue/final project direction. Start by developing smaller collections (ranging in focus & specificity) as an opportunity to see the possibilities of how each could unfold. Be prepared to discuss your process and findings for the next class.</li>
+      <li>Begin experimenting with platforms for collecting and organizing content. Is there a specific process or platform that feels in-line with your content and workflow needs? (This is different for everyone!)</li>
+      <li>WATCH: Conversations | Curator Talk | Archives and the Digital Dark Age</li>
+    </ul>
+    <h2>Preparing for</h2>
+    <h2>Listening to</h2>
+    <h2>Watching</h2>
+  </div>
+</div>

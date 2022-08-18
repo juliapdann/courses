@@ -5,8 +5,8 @@ version: "0.1"
 size: "20k"
 
 # github pages deployment
-url: https://joshosbrn.github.io
-baseurl: softweb.world
+# url: https://joshosbrn.github.io
+# baseurl: softweb.world
 
 # Build settings
 markdown: kramdown
