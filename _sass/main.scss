@@ -7,13 +7,16 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, p {
+    font-size: 30px;
+}
+
 body {
     background-color: #000;
     color: #fff;
-    font-family: picnic;
     font-size: 2em;
     padding: 0;
-    margin: .25em;
+    margin: 0;
     overflow-x: hidden;
 }
 
@@ -22,32 +25,21 @@ header {
     z-index: 10;
 }
 
-.container {
-    display: flex;
-    overflow: hidden;
-    height: 100vh;
-    position: relative;
+footer {
+    position: fixed;
+    bottom: 0;
+    background: black;
     width: 100%;
-    backface-visibility: hidden;
-    margin-top: -100px;
-    padding-top: 100px;
 }
 
-.left, .right {
-    width: 50%;
-    overflow: auto;
-    height: auto;
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-.scroll-container {
+.marquee-container {
     width: 100%;
     overflow: hidden;
+    background-color: yellow;
+    color: black;
 }
 
-.marquee {
+.marquee-contents {
     white-space: nowrap;
     clear: both;
     float: left;
@@ -55,18 +47,78 @@ header {
     padding: 0;
 }
 
-footer {
-    .nav {
-
-    }
-}
-
 .nav {
-    padding: 0;
+    text-align: center;
+    padding: 15px;
     margin: 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
 
     li {
         display: inline-block;
         list-style-type: none;
+        padding-right: 20px;
+    }
+}
+
+header .nav { border-bottom: 1px solid #fff; }
+footer .nav { border-top: 1px solid #fff; }
+
+.container {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    margin-top: -115px;
+    padding-top: 115px;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.left, .right {
+    width: 50%;
+    overflow: auto;
+    height: auto;
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    h1 {
+        border-bottom: 1px solid #fff;
+        padding: 15px;
+        margin: 0;
+    }
+    
+    h2 {
+        margin-top: 0;
+    }
+}
+
+.left {
+    border-right: 1px solid #fff;
+}
+
+.week {
+    border-bottom: 1px solid #fff;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.latest {
+    padding: 15px;
+}
+
+footer {
+    .nav {
+
     }
 }

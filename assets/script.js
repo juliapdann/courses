@@ -1,4 +1,4 @@
-const marquee = document.getElementById("marquee");
+const marquee = document.getElementById("marquee-contents");
   
 animate(marquee);
   

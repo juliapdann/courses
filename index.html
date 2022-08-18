@@ -9,12 +9,12 @@ assingments:
   <div class="left">
     <h1>Calendar</h1>
     <ul>
-      {% for class in site.data.posts %}
-        <li class="">
-          <h2>{{ class.week }}</h2>
-          <p>{{ class.title }}</p>
-          <p>{{ class.description }}</p>
-          <p>{{ class.schedule }}</p>
+      {% for week in site.data.posts %}
+        <li class="week">
+          <h2>{{ week.week }}</h2>
+          <p>{{ week.title }}</p>
+          <p>{{ week.description }}</p>
+          <p>{{ week.schedule }}</p>
         </li>
       {% endfor %}
     </ul>
@@ -22,14 +22,16 @@ assingments:
   
   <div class="right">
     <h1>Latest</h1>
-    <h2>Assignments</h2>
-    <ul>
-      <li>Begin brainstorming directions for building a collection that will serve as the basis for your catalogue/final project direction. Start by developing smaller collections (ranging in focus & specificity) as an opportunity to see the possibilities of how each could unfold. Be prepared to discuss your process and findings for the next class.</li>
-      <li>Begin experimenting with platforms for collecting and organizing content. Is there a specific process or platform that feels in-line with your content and workflow needs? (This is different for everyone!)</li>
-      <li>WATCH: Conversations | Curator Talk | Archives and the Digital Dark Age</li>
-    </ul>
-    <h2>Preparing for</h2>
-    <h2>Listening to</h2>
-    <h2>Watching</h2>
+    <div class="latest">
+      <h2>Assignments</h2>
+      <ul>
+        <li>Begin brainstorming directions for building a collection that will serve as the basis for your catalogue/final project direction. Start by developing smaller collections (ranging in focus & specificity) as an opportunity to see the possibilities of how each could unfold. Be prepared to discuss your process and findings for the next class.</li>
+        <li>Begin experimenting with platforms for collecting and organizing content. Is there a specific process or platform that feels in-line with your content and workflow needs? (This is different for everyone!)</li>
+        <li>WATCH: Conversations | Curator Talk | Archives and the Digital Dark Age</li>
+      </ul>
+      <h2>Preparing for</h2>
+      <h2>Listening to</h2>
+      <h2>Watching</h2>
+    </div>
   </div>
 </div>
