@@ -1,7 +1,7 @@
-@font-face {
-    font-family: picnic;
-    src: url(../assets/PicNic-Regular.woff);
-}
+// @font-face {
+//     font-family: picnic;
+//     src: url(../assets/PicNic-Regular.woff);
+// }
 
 * {
     box-sizing: border-box;
@@ -34,6 +34,7 @@ footer {
 
 .marquee-container {
     width: 100%;
+    padding: 15px 0;
     overflow: hidden;
     background-color: yellow;
     color: black;
@@ -44,7 +45,7 @@ footer {
     clear: both;
     float: left;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 200px;
 }
 
 .nav {
@@ -74,8 +75,8 @@ footer .nav { border-top: 1px solid #fff; }
     position: relative;
     width: 100%;
     backface-visibility: hidden;
-    margin-top: -115px;
-    padding-top: 115px;
+    margin-top: -135px;
+    padding-top: 135px;
 
     ::-webkit-scrollbar {
         display: none;
@@ -86,20 +87,21 @@ footer .nav { border-top: 1px solid #fff; }
     width: 50%;
     overflow: auto;
     height: auto;
+    padding-bottom: 75px;
 
     ul {
         padding: 0;
         margin: 0;
     }
 
+    p, h2 {
+        margin: 0 0 15px 0;
+    }
+
     h1 {
         border-bottom: 1px solid #fff;
         padding: 15px;
         margin: 0;
-    }
-    
-    h2 {
-        margin-top: 0;
     }
 }
 
@@ -111,10 +113,26 @@ footer .nav { border-top: 1px solid #fff; }
     border-bottom: 1px solid #fff;
     list-style-type: none;
     padding: 15px;
+
+    :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.week:last-of-type {
+    border: none;
 }
 
 .latest {
     padding: 15px;
+
+    li {
+        margin: 0 0 15px 0;
+    }
+
+    ol {
+        margin: 0;
+    }
 }
 
 footer {

@@ -13,5 +13,5 @@ function animate(element) {
         if (elementWidth == -flag) {
             flag = parentWidth;
         }
-    }, 10);
+    }, 40);
 }
