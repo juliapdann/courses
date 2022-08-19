@@ -9,6 +9,11 @@ $breakpoints: (
     src: url(../assets/PPEditorialNew-Ultralight.otf);
 }
 
+@font-face {
+    font-family: NeueHaasUnica;
+    src: url(../assets/NeueHaasUnica-Regular.eot);
+}
+
 // Mixin to manage responsive breakpoints
 // @author Kitty Giraudel
 // {String} $breakpoint - Breakpoint name
@@ -53,7 +58,7 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: NeueHaasUnica;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
