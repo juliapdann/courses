@@ -57,6 +57,7 @@ a:hover {
 
 p, li {
     font-size: 30px;
+    line-height: .9em;
 }
 
 h1, h2, h3, h4 {
@@ -132,6 +133,8 @@ header {
 .nav {
     text-align: center;
     display: block;
+    font-family: PPEditorial;
+    font-size: 35px;
 
     li {
         display: inline-block;
