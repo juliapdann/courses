@@ -108,6 +108,7 @@ header {
 
 .nav {
     text-align: center;
+    display: block;
 
     a {
         text-decoration: none;
@@ -125,6 +126,8 @@ header {
 
     @include respond-to('small') {
         padding: 15px;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
