@@ -57,7 +57,7 @@ a:hover {
 
 p, li {
     font-size: 30px;
-    line-height: .9em;
+    line-height: .95em;
 }
 
 h1, h2, h3, h4 {
@@ -134,12 +134,12 @@ header {
     text-align: center;
     display: block;
     font-family: PPEditorial;
-    font-size: 35px;
 
     li {
         display: inline-block;
         list-style-type: none;
         padding-right: 20px;
+        font-size: 35px;
     }
 
     @include respond-to('small') {
