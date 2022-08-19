@@ -1,104 +1,27 @@
 - week: Week One
   title: Introductions
-  description: collecting, personal catalogs, queries
+  description:
   schedule:
-  - date: Tuesday Aug 23
-    title: Monroe Park Campus Classes Begin
-    assignments:
-    - in-class:
-      homework:
-      supplementary-materials:
-      notes:
-      progress:
   - date: Wednesday Aug 24
-    title: Introductions, Syllabus, Q&A
     assignments:
     - in-class: Introductions, Syllabus, Q&A
       homework: are.na exercise
-      supplementary-materials: https://www.are.na/block/13393518
-      notes:
-      progress:
+      supplementary-materials: <a href="https://www.are.na/block/13393518">The World as a Printing Surface, Paul Elliman</a>
+      notes: 23-29 Add/drop classes
 
 - week: Week Two
   title: Cataloging
   description: collecting, personal catalogs, queries
   schedule:
   - date: Monday Aug 29
-    title: Are.na day, Project 01 prompt
     assignments:
-    - in-class: Lorem ipsum dolor sit amet.
-      homework: Lorem ipsum dolor sit amet.
-      supplementary-materials: Lorem ipsum dolor sit amet.
+    - in-class:
+      homework:
+      supplementary-materials:
       notes:
-      progress:
   - date: Wednesday Aug 31
-    title: RESEARCH DAY Assembling areas of inquiry
     assignments:
-    - in-class: Lorem ipsum dolor sit amet.
-      homework: Lorem ipsum dolor sit amet.
-      supplementary-materials: Lorem ipsum dolor sit amet.
+    - in-class:
+      homework:
+      supplementary-materials:
       notes:
-      progress:
-
-- week: Week Three
-  title: Introductions
-  description: collecting, personal catalogs, queries
-  schedule:
-  - date: Tuesday Aug 23
-    title: Monroe Park Campus Classes Begin
-    assignments:
-    - in-class: Lorem ipsum dolor sit amet.
-      homework: Lorem ipsum dolor sit amet.
-      supplementary-materials: Lorem ipsum dolor sit amet.
-      notes:
-      progress:
-  - date: Wednesday Aug 24
-    title: Introductions, Syllabus, Q&A
-    assignments:
-    - in-class: Lorem ipsum dolor sit amet.
-      homework: Lorem ipsum dolor sit amet.
-      supplementary-materials: Lorem ipsum dolor sit amet.
-      notes:
-      progress:
-
-- week: Week Four
-  title: Cataloging
-  description: collecting, personal catalogs, queries
-  schedule:
-  - date: Monday Aug 29
-    title: Are.na day, Project 01 prompt
-    assignments:
-    - in-class: Lorem ipsum dolor sit amet.
-      homework: Lorem ipsum dolor sit amet.
-      supplementary-materials: Lorem ipsum dolor sit amet.
-      notes:
-      progress:
-  - date: Wednesday Aug 31
-    title: RESEARCH DAY Assembling areas of inquiry
-    assignments:
-    - in-class: Lorem ipsum dolor sit amet.
-      homework: Lorem ipsum dolor sit amet.
-      supplementary-materials: Lorem ipsum dolor sit amet.
-      notes:
-      progress:
-
-- week: Week Five
-  title: Cataloging
-  description: collecting, personal catalogs, queries
-  schedule:
-  - date: Monday Aug 29
-    title: Are.na day, Project 01 prompt
-    assignments:
-    - in-class: Lorem ipsum dolor sit amet.
-      homework: Lorem ipsum dolor sit amet.
-      supplementary-materials: Lorem ipsum dolor sit amet.
-      notes:
-      progress:
-  - date: Wednesday Aug 31
-    title: RESEARCH DAY Assembling areas of inquiry
-    assignments:
-    - in-class: Lorem ipsum dolor sit amet.
-      homework: Lorem ipsum dolor sit amet.
-      supplementary-materials: Lorem ipsum dolor sit amet.
-      notes:
-      progress:

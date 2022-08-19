@@ -1,3 +1,5 @@
+// Variables and font declarations
+
 $breakpoints: (
   'small':  767px,
   'medium': 992px,
@@ -33,7 +35,6 @@ $breakpoints: (
           + "Available breakpoints are: #{map-keys($breakpoints)}.";
     }
   }
-  
 
 * {
     box-sizing: border-box;
@@ -47,6 +48,11 @@ $breakpoints: (
 a {
     color: white;
     text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+a:hover {
+    color: yellow;
 }
 
 h1, h2, h3, h4, p, li {
@@ -77,6 +83,7 @@ header {
     border-bottom: 1px solid #fff;
     padding: 0 0 15px 0;
     margin: 0;
+
     @include respond-to('small') {
         position: fixed;
         bottom: 0;
@@ -88,6 +95,7 @@ header {
     border-top: none;
     padding: 15px 0 0 0;
     margin: 0;
+
     @include respond-to('small') {
         border-bottom: 1px solid #fff;
     }
@@ -99,6 +107,7 @@ header {
     overflow: hidden;
     background-color: yellow;
     color: black;
+
     a {
         color: black;
     }
@@ -110,6 +119,11 @@ header {
     float: left;
     margin: 0;
     padding: 0 0 0 200px;
+
+    a {
+        text-decoration: none;
+        border: none;
+    }
 }
 
 .nav {
@@ -124,10 +138,6 @@ header {
         display: inline-block;
         list-style-type: none;
         padding-right: 20px;
-    }
-
-    :hover {
-        color: yellow;
     }
 
     @include respond-to('small') {
@@ -197,6 +207,7 @@ header {
 
 .left {
     border: none;
+
     @include respond-to('small') {
         border-right: 1px solid #fff;
     }
@@ -214,11 +225,13 @@ header {
 
 .schedule {
     ul {
+
         li {
             margin-left: 30px;
             margin-bottom: 5px;
             list-style-type: disc
         }
+
         :last-child {
             margin-bottom: 15px;
         }
