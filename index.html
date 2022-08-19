@@ -1,9 +1,5 @@
 ---
 layout: default
-assignments:
-- Begin brainstorming directions for building a collection that will serve as the basis for your catalogue/final project direction. Start by developing smaller collections (ranging in focus & specificity) as an opportunity to see the possibilities of how each could unfold. Be prepared to discuss your process and findings for the next class.
-- Begin experimenting with platforms for collecting and organizing content. Is there a specific process or platform that feels in-line with your content and workflow needs? (This is different for everyone!)
-- WATCH Conversations | Curator Talk | Archives and the Digital Dark Age
 ---
 <div class="container">
   <div class="left">
@@ -38,13 +34,17 @@ assignments:
     <div class="latest">
       <h2>Working on:</h2>
       <ol>
-        <li>Are.na exercise: Familiarize yourselves with are.na as a platform by selecting five topics (no limits) and connecting 20 blocks per topic; readings, images, audio/music/podcast, memes, etc. Due Monday Aug 29.</li>
-        <li>Schedule 1-1 with Julia for accommodations check-in.</li>
+        {% for working in site.data.design-practices-latest %}
+          <li>{{ working.working[0] }}</li>
+          <li>{{ working.working[1] }}</li>
+        {% endfor %}
       </ol>
       <h2>Up next:</h2>
       <ol>
-        <li>In-class presentations on are.na exercises.</li>
-        <li>Project 01 to be introduced.</li>
+        {% for next in site.data.design-practices-latest %}
+          <li>{{ next.next[0] }}</li>
+          <li>{{ next.next[1] }}</li>
+        {% endfor %}
       </ol>
       <h2>Listening: our class studio playlist. Add to it!</h2>
       <h2>Watching: <a href="#">The Rehearsal</a></h2>

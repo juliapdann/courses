@@ -13,7 +13,7 @@ $breakpoints: (
 
 @font-face {
     font-family: NeueHaasUnica;
-    src: url(../assets/NeueHaasUnica-Regular.ttf);
+    src: url(../assets/NeueHaasUnica-Regular.eot);
 }
 
 // Mixin to manage responsive breakpoints
@@ -64,7 +64,7 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: NeueHaasUnica;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -255,4 +255,13 @@ header {
     width: 23px;
     height: 23px;
     margin: 0 20px;
+}
+
+.xl-logo {
+
+}
+
+.navigation {
+    text-align: center;
+    width: 100%;
 }
