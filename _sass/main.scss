@@ -7,13 +7,8 @@ $breakpoints: (
 ) !default;
 
 @font-face {
-    font-family: PPEditorial;
-    src: url(../assets/PPEditorialNew-Ultralight.otf);
-}
-
-@font-face {
     font-family: NeueHaasUnica;
-    src: url(../assets/NeueHaasUnica-Regular.eot);
+    src: url(/assets/NeueHaasUnica-Regular.ttf);
 }
 
 // Mixin to manage responsive breakpoints
