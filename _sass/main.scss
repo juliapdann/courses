@@ -1,13 +1,13 @@
-// @font-face {
-//     font-family: picnic;
-//     src: url(../assets/PicNic-Regular.woff);
-// }
-
 $breakpoints: (
   'small':  767px,
   'medium': 992px,
   'large':  1200px
 ) !default;
+
+@font-face {
+    font-family: PPEditorial;
+    src: url(../assets/PicNic-Regular.woff);
+}
 
 // Mixin to manage responsive breakpoints
 // @author Kitty Giraudel
@@ -28,6 +28,7 @@ $breakpoints: (
           + "Available breakpoints are: #{map-keys($breakpoints)}.";
     }
   }
+  
 
 * {
     box-sizing: border-box;
@@ -172,6 +173,7 @@ header {
         margin: 0;
         background-color: white;
         color: black;
+        font-family: PPEditorial;
 
         @include respond-to('small') {
             background-color: black;
@@ -181,11 +183,11 @@ header {
 
     @include respond-to('small') {
         width: 50%;
+        padding-bottom: 50px;
     }
 }
 
 .right {
-    padding-bottom: 0;
     border-bottom: 1px solid #fff;
 }
 
