@@ -3,6 +3,32 @@
 //     src: url(../assets/PicNic-Regular.woff);
 // }
 
+$breakpoints: (
+  'small':  767px,
+  'medium': 992px,
+  'large':  1200px
+) !default;
+
+// Mixin to manage responsive breakpoints
+// @author Kitty Giraudel
+// {String} $breakpoint - Breakpoint name
+// @require $breakpoints
+@mixin respond-to($breakpoint) {
+    // If the key exists in the map
+    @if map-has-key($breakpoints, $breakpoint) {
+      // Prints a media query based on the value
+      @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+      }
+    }
+   
+    // If the key doesn't exist in the map
+    @else {
+      @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+          + "Available breakpoints are: #{map-keys($breakpoints)}.";
+    }
+  }
+
 * {
     box-sizing: border-box;
 }
@@ -13,18 +39,20 @@
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 h1, h2, h3, h4, p, li {
     font-size: 28px;
+    font-weight: 300;
 }
 
 body {
     background-color: #000;
     color: #fff;
     font-size: 2em;
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -35,11 +63,28 @@ header {
     z-index: 10;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
+.footer-nav {
+    position: none;
     background: black;
     width: 100%;
+    border-top: none;
+    border-bottom: 1px solid #fff;
+    padding: 0 0 15px 0;
+    margin: 0;
+    @include respond-to('small') {
+        position: fixed;
+        bottom: 0;
+        border-top: 1px solid #fff;
+    }
+}
+
+.header-nav {
+    border-top: none;
+    padding: 15px 0 0 0;
+    margin: 0;
+    @include respond-to('small') {
+        border-bottom: 1px solid #fff;
+    }
 }
 
 .marquee-container {
@@ -48,6 +93,9 @@ footer {
     overflow: hidden;
     background-color: yellow;
     color: black;
+    a {
+        color: black;
+    }
 }
 
 .marquee-contents {
@@ -60,11 +108,8 @@ footer {
 
 .nav {
     text-align: center;
-    padding: 15px;
-    margin: 0;
 
     a {
-        color: white;
         text-decoration: none;
     }
 
@@ -73,15 +118,19 @@ footer {
         list-style-type: none;
         padding-right: 20px;
     }
-}
 
-header .nav { border-bottom: 1px solid #fff; }
-footer .nav { border-top: 1px solid #fff; }
+    :hover {
+        color: yellow;
+    }
+
+    @include respond-to('small') {
+        padding: 15px;
+    }
+}
 
 .container {
     display: flex;
-    overflow: hidden;
-    height: 100vh;
+    flex-direction: column-reverse;
     position: relative;
     width: 100%;
     backface-visibility: hidden;
@@ -91,13 +140,19 @@ footer .nav { border-top: 1px solid #fff; }
     ::-webkit-scrollbar {
         display: none;
     }
+
+    @include respond-to('small') {
+        overflow: hidden;
+        flex-direction: row;
+        height: 100vh;
+    }
 }
 
 .left, .right {
-    width: 50%;
+    width: 100%;
     overflow: auto;
     height: auto;
-    padding-bottom: 75px;
+    padding-bottom: 0;
 
     ul {
         padding: 0;
@@ -112,11 +167,30 @@ footer .nav { border-top: 1px solid #fff; }
         border-bottom: 1px solid #fff;
         padding: 15px;
         margin: 0;
+        background-color: white;
+        color: black;
+
+        @include respond-to('small') {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    @include respond-to('small') {
+        width: 50%;
     }
 }
 
+.right {
+    padding-bottom: 0;
+    border-bottom: 1px solid #fff;
+}
+
 .left {
-    border-right: 1px solid #fff;
+    border: none;
+    @include respond-to('small') {
+        border-right: 1px solid #fff;
+    }
 }
 
 .week {
@@ -132,8 +206,9 @@ footer .nav { border-top: 1px solid #fff; }
 .schedule {
     ul {
         li {
-            list-style-type: disc;
             margin-left: 30px;
+            margin-bottom: 5px;
+            list-style-type: disc
         }
         :last-child {
             margin-bottom: 15px;
@@ -151,11 +226,5 @@ footer .nav { border-top: 1px solid #fff; }
     ol {
         margin: 0;
         padding: 0 0 0 30px;
-    }
-}
-
-footer {
-    .nav {
-
     }
 }
