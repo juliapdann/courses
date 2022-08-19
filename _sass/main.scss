@@ -58,7 +58,7 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 2em;
-    font-family: NeueHaasUnica;
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -178,7 +178,6 @@ header {
         margin: 0;
         background-color: white;
         color: black;
-        font-family: PPEditorial;
 
         @include respond-to('small') {
             background-color: black;
