@@ -21,3 +21,8 @@ gems:
 
 # Analytics
 ga: UA-42682851-7
+
+# Custom headers
+webrick:
+  headers:
+    Content-Security-Policy: font-src http://localhost:4000/assets/NeueHaasUnica-Regular.ttf;

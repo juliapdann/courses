@@ -19,7 +19,7 @@ layout: default
                   {% if assignments.in-class != null %}<li>In-class: {{ assignments.in-class }}</li>{% endif %}
                   {% if assignments.homework != null %}<li>Homework: {{ assignments.homework }}</li>{% endif %}
                   {% if assignments.supplementary-materials != null %}<li>Reading: {{ assignments.supplementary-materials }}</li>{% endif %}
-                  {% if assignments.notes != null %}<li>Notes: {{ assignments.notes }}</li>{% endif %}
+                  {% if assignments.notes != null %}<li>{{ assignments.notes }}</li>{% endif %}
                 {% endfor %}
               </ul>
             {% endfor %}

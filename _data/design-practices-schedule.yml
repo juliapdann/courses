@@ -4,8 +4,13 @@
   schedule:
   - date: Wednesday Aug 24
     assignments:
+    - in-class:
+      homework:
+      notes: Monroe Park Campus Classes Begin
+  - date: Wednesday Aug 24
+    assignments:
     - in-class: Introductions, Syllabus, Q&A
-      homework: are.na exercise
+      homework: Micro collections. Familiarize yourselves with are.na as a platform by selecting five topics (no limits) and connecting 20 blocks per topic; blocks can be anything—images, video, audio, links, scans, connected from other channels (as long as they have proper attribution) etc. All connections must be titled and have some form of attribution. Create your individual channels on your own, and then connect them to this channel. Due Monday Aug 29.
       supplementary-materials: <a href="https://www.are.na/block/13393518">The World as a Printing Surface, Paul Elliman</a>
       notes: 23-29 Add/drop classes
 
@@ -15,13 +20,47 @@
   schedule:
   - date: Monday Aug 29
     assignments:
-    - in-class:
-      homework:
+    - in-class: present micro collections; introduce Project 01
+      homework: begin identifying potential areas of inquiry and assembling initial research using are.na as a place to centralize your findings; what are you curious about? Be prepared to share and discuss with each other next class.
       supplementary-materials:
       notes:
   - date: Wednesday Aug 31
     assignments:
+    - in-class: small-group discussion; research studio, assembling areas of inquiry.
+      homework:
+      supplementary-materials:
+      notes:
+
+- week: Week Three
+  title: Cataloging
+  description: collecting, personal catalogs, queries
+  schedule:
+  - date: Monday Sept 5
+    assignments:
     - in-class:
       homework:
       supplementary-materials:
+      notes: No class held, Labor Day
+  - date: Wednesday Aug 31
+    assignments:
+    - in-class: "TENTATIVE: Work day in Cabell Library; meet with Carla-Mae Crookendale, independent research time. "
+      homework: continue collecting (100+ for next week); written statements; start working on catalog structures
+      supplementary-materials:
+      notes:
+
+- week: Week Four
+  title: Cataloging & Translation
+  description:
+  schedule:
+  - date: Monday Sept 12
+    assignments:
+    - in-class: "WORKSHOP: Deep Sea Diving the Internet with Elan Kiderman (HELD REMOTELY ON ZOOM)"
+      homework: Continue working on collections and cataloging; prepare to present and discuss on Wednesday
+      supplementary-materials:
+      notes: Julia is out of town
+  - date: Wednesday September 14
+    assignments:
+    - in-class: in-progress collections, catalog structures, findings
+      homework: Continue collecting (100+ for next week); written statements; start working on catalog structures
+      supplementary-materials: "(1) “Melancholies of the Paginated Mind: The Library as Curatorial Space” (2)  “Illuminations,” Walter Benjamin (3) “Weeding is Fundamental,” 99% Invisible."
       notes:
