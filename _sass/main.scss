@@ -14,15 +14,15 @@ $breakpoints: (
   'large':  1200px
 ) !default;
 
-@font-face {
-    font-family: NeueHaasUnica;
-    src: url(../assets/NeueHaasUnica-Regular.ttf);
-}
+// @font-face {
+//     font-family: NeueHaasUnica;
+//     src: url(../assets/NeueHaasUnica-Regular.ttf);
+// }
 
-@font-face {
-    font-family: PPEditorial;
-    src: url(../assets/PPEditorialNew-Ultralight.otf);
-}
+// @font-face {
+//     font-family: PPEditorial;
+//     src: url(../assets/PPEditorialNew-Ultralight.otf);
+// }
 
 // Mixin to manage responsive breakpoints
 // @author Kitty Giraudel
@@ -68,14 +68,15 @@ p, li {
 }
 
 h1, h2, h3, h4 {
-    font-family: PPEditorial;
     font-size: 35px;
 }
 
 body {
     background-color: #000;
     color: #fff;
-    font-family: NeueHaasUnica;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -140,7 +141,6 @@ header {
 .nav {
     text-align: center;
     display: block;
-    font-family: PPEditorial;
 
     li {
         display: inline-block;
