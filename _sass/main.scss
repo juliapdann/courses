@@ -1,9 +1,12 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     border: 0;
-    vertical-align:baseline;
+    vertical-align: baseline;
     line-height: 1.1;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 500;
  }
 
 // Variables and font declarations
@@ -44,10 +47,6 @@ $breakpoints: (
     }
   }
 
-* {
-    box-sizing: border-box;
-}
-
 ::selection {
     color: black;
     background: yellow;
@@ -61,14 +60,6 @@ a {
 
 a:hover {
     color: yellow;
-}
-
-p, li {
-    font-size: 30px;
-}
-
-h1, h2, h3, h4 {
-    font-size: 35px;
 }
 
 body {
