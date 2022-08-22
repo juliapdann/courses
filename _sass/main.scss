@@ -53,18 +53,18 @@ $breakpoints: (
 }
 
 a {
-    color: #EFECA1;
+    color: #85FA9F;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
 }
 
 a:hover {
-    color: rgb(226, 192, 255);
+    color: #fff;
 }
 
 body {
     background-color: #000;
-    color: #EFECA1;
+    color: #fff;
     font-family: neue-haas-grotesk-display, sans-serif;
     padding: 0;
     margin: 0;
@@ -81,14 +81,14 @@ header {
     background: black;
     width: 100%;
     border-top: none;
-    border-bottom: 1px solid #EFECA1;
+    border-bottom: 1px solid #85FA9F;
     padding: 0 0 15px 0;
     margin: 0;
 
     @include respond-to('small') {
         position: fixed;
         bottom: 0;
-        border-top: 1px solid #EFECA1;
+        border-top: 1px solid #85FA9F;
     }
 }
 
@@ -98,7 +98,7 @@ header {
     margin: 0;
 
     @include respond-to('small') {
-        border-bottom: 1px solid #EFECA1;
+        border-bottom: 1px solid #85FA9F;
     }
 }
 
@@ -106,7 +106,7 @@ header {
     width: 100%;
     padding: 15px 0;
     overflow: hidden;
-    background-color: rgb(226, 192, 255);
+    background-color: #85FA9F;
     color: black;
 
     a {
@@ -181,15 +181,15 @@ header {
     }
 
     h1 {
-        border-bottom: 1px solid #EFECA1;
+        border-bottom: 1px solid #85FA9F;
         padding: 15px;
         margin: 0;
-        background-color: #EFECA1;
+        background-color: #85FA9F;
         color: black;
 
         @include respond-to('small') {
             background-color: black;
-            color: #EFECA1;
+            color: #85FA9F;
         }
     }
 
@@ -200,19 +200,19 @@ header {
 }
 
 .right {
-    border-bottom: 1px solid #EFECA1;
+    border-bottom: 1px solid #85FA9F;
 }
 
 .left {
     border: none;
 
     @include respond-to('small') {
-        border-right: 1px solid #EFECA1;
+        border-right: 1px solid #85FA9F;
     }
 }
 
 .week {
-    border-bottom: 1px solid #EFECA1;
+    border-bottom: 1px solid #85FA9F;
     list-style-type: none;
     padding: 15px;
 }
