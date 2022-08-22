@@ -4,9 +4,9 @@
   schedule:
   - date: Monday Aug 22
     assignments:
-    - in-class:
+    - in-class: no class, Monroe Park Campus classes begin Tuesday Aug 23
       homework:
-      notes: Monroe Park Campus Classes Begin
+      notes: 
   - date: Wednesday Aug 24
     assignments:
     - in-class: Introductions, Syllabus, Q&A
