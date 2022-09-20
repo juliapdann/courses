@@ -64,3 +64,37 @@
       homework: image matricies due Thurs Sept 22
       supplementary-materials:
       notes:
+
+- week: Week Five
+  title: 
+  description:
+  schedule:
+  - date: Tues Sept 20
+    assignments:
+    - in-class: Unit 1 Studio; 1-1s. 
+      homework: Submit all deliverables as one PDF to your student folder on Google Drive by Thursday Sept 22 at 2pm.
+      supplementary-materials: 
+      notes:
+  - date: Thursday Sept 22
+    assignments:
+    - in-class: Small group critiques; introduce Project 3. 
+      homework: Project 3.
+      supplementary-materials:
+      notes:
+      
+      - week: Week Six
+  title: 
+  description:
+  schedule:
+  - date: Tues Sept 27
+    assignments:
+    - in-class: Project 3 studio. 
+      homework: Bring printed first draft for in-class critique.
+      supplementary-materials: 
+      notes:
+  - date: Thursday Sept 29
+    assignments:
+    - in-class: Small-group critique; Project 3 studio. 
+      homework: Project 3; final due in one week.
+      supplementary-materials:
+      notes:
