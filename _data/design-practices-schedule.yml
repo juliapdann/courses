@@ -1,5 +1,5 @@
 - week: Week One
-  title: Introductions
+  title: INTRODUCTIONS
   description:
   schedule:
   - date: Monday Aug 22
@@ -15,7 +15,7 @@
       notes: 23-29 Add/drop classes
 
 - week: Week Two
-  title: Cataloging
+  title: CATALOGING
   description: collecting, personal catalogs, queries
   schedule:
   - date: Monday Aug 29
@@ -32,7 +32,7 @@
       notes:
 
 - week: Week Three
-  title: Cataloging
+  title: CATALOGING
   description: collecting, personal catalogs, queries
   schedule:
   - date: Monday Sept 5
@@ -49,7 +49,7 @@
       notes:
 
 - week: Week Four
-  title: Cataloging & Translation
+  title: CATALOGING & TRANSLATION
   description:
   schedule:
   - date: Monday Sept 12
@@ -66,7 +66,7 @@
       notes:
       
 - week: Week Five
-  title: Cataloging & Translation
+  title: CATALOGING & TRANSLATION
   description:
   schedule:
   - date: Monday Sept 19
@@ -79,39 +79,90 @@
     assignments:
     - in-class: Studio; 1-1s.
       homework: Printed one-hour poster, brought to class; Printed zine, brought to class; Digital files of both uploaded to student folder on Google Drive; Due 9am, Sept 26 (next Monday)
-  supplementary-materials: 
+      supplementary-materials: 
       notes:
       
 - week: Week Six
-  title: Translation & Synthesis
+  title: TRANSLATION
   description:
   schedule:
-  - date: Monday Sept 25
+  - date: Monday Sept 26
     assignments:
-    - in-class: Zines and posters due, critiques; 
-      homework: First draft of project due Wednesday Oct 5 in class
+    - in-class: Zines due, critiques; Synthesis lecture 
+      homework:
       supplementary-materials:
       notes: 
-  - date: Wednesday September 27
+  - date: Wednesday September 28
     assignments:
-    - in-class: REMOTE; Studio and 1-1s.
-      homework: work on first draft of final archive, due next Wednesday
-  supplementary-materials: 
+    - in-class: Studio, 1-1s
+      homework:
+      supplementary-materials: 
       notes:
       
 - week: Week Seven
-  title: Synthesis
+  title: SYNTHESIS
   description:
   schedule:
   - date: Monday Oct 3
     assignments:
     - in-class: Studio, 1-1s 
-      homework: In-progress projects due Wednesday, critiques
+      homework:
       supplementary-materials:
       notes: 
   - date: Wednesday Oct 5
     assignments:
-    - in-class: in-progress critiques
+    - in-class: First draft of projects due
       homework:
-  supplementary-materials: 
+      supplementary-materials: 
       notes:
+
+- week: Week Eight
+  title: SYNTHESIS
+  description:
+  schedule:
+  - date: Monday Oct 10
+    assignments:
+    - in-class: Studio, 1-1s 
+      homework:
+      supplementary-materials:
+      notes: 
+  - date: Wednesday Oct 12
+    assignments:
+    - in-class: Studio, 1-1s
+      homework:
+      supplementary-materials: 
+      notes:
+
+- week: Week Nine
+  title:
+  description:
+  schedule:
+  - date: Monday Oct 17
+    assignments:
+    - in-class: NO CLASS 
+      homework:
+      supplementary-materials:
+      notes: Julia out of town
+  - date: Wednesday Oct 19
+    assignments:
+    - in-class: NO CLASS
+      homework:
+      supplementary-materials: 
+      notes: Midterm grades issued Fri Oct 21
+
+- week: Week Ten
+  title: CRITIQUES
+  description:
+  schedule:
+  - date: Monday Oct 24
+    assignments:
+    - in-class: Critique Day 1; 9 crits
+      homework:
+      supplementary-materials:
+      notes:
+  - date: Wednesday Oct 26
+    assignments:
+    - in-class: Critique Day 2; 9 crits
+      homework:
+      supplementary-materials: 
+      notes: Midterm grades issued Fri Oct 21
