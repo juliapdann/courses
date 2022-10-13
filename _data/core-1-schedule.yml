@@ -82,7 +82,7 @@
       supplementary-materials:
       notes:
       
-      - week: Week Six
+- week: Week Six
   title: 
   description:
   schedule:
@@ -96,5 +96,56 @@
     assignments:
     - in-class: Small-group critique; Project 3 studio. 
       homework: Project 3; final due in one week.
+      supplementary-materials:
+      notes:
+
+- week: Week Seven
+  title: 
+  description:
+  schedule:
+  - date: Tues Oct 4
+    assignments:
+    - in-class: Accordion book project.
+      homework: Accordion book prints due.
+      supplementary-materials: 
+      notes:
+  - date: Thursday Oct 6
+    assignments:
+    - in-class: PROOFS DUE. PRINTED, FOLDED, TRIMMED.
+      homework: Relax.
+      supplementary-materials:
+      notes:
+
+- week: Week Eight
+  title: 
+  description:
+  schedule:
+  - date: Tues Oct 11
+    assignments:
+    - in-class: SLOW LOOKING WORKSHOP WITH LUKAZA BRANFMAN-VERISSIMO
+      homework: None.
+      supplementary-materials: 
+      notes:
+  - date: Thursday Oct 13
+    assignments:
+    - in-class: NO CLASS; Julia out of town
+      homework: Begin Found Typography Archive “Pre-assignment for Project 0” for the Type Unit; assignment handout in are.na; <a href="https://calendly.com/dannj/students-midterm-1-1-meetings?month=2022-10">sign up for your 1:1 midterm meeting with Julia</a>.
+      supplementary-materials:
+      notes:
+
+- week: Week Nine
+  title: 
+  description:
+  schedule:
+  - date: Tues Oct 18
+    assignments:
+    - in-class: MIDTERMS WEEK; NO CLASS; JULIA OUT OF TOWN
+      homework: Found typography archive project “Pre-assignment for Project 0”; <a href="https://calendly.com/dannj/students-midterm-1-1-meetings?month=2022-10">virtual check-ins with Julia</a>.
+      supplementary-materials: 
+      notes:
+  - date: Thursday Oct 20
+    assignments:
+    - in-class: MIDTERMS WEEK; NO CLASS; JULIA OUT OF TOWN
+      homework: Found typography archive project “Pre-assignment for Project 0”; <a href="https://calendly.com/dannj/students-midterm-1-1-meetings?month=2022-10">virtual check-ins with Julia</a>.
       supplementary-materials:
       notes:
